@@ -24,7 +24,7 @@ Requirements: Knowledge of SSI, unix directory structure.
 3. We will be checking more information in this directory by using this command
 #<!--exec cmd="ls ../../9"-->
 later you will realize there is a new php file named "p91e283zc3.php"
-4. Paste this php file at the end of the challenge 9 url to open the PHP file of the website. 
+4. Paste this php file at the end of the challenge url to open the PHP file of the website. "https://www.hackthissite.org/missions/basic/11/index.php"
 
 Answer :7bf30faa
 
@@ -48,6 +48,15 @@ Sam decided to make a music site. Unfortunately he does not understand Apache. T
 Hints : Understanding the apache server interaction 
 
 ***Solutions***
-1. 
+<img width="719" alt="image" src="https://github.com/user-attachments/assets/6404f2b5-8976-4fe9-8905-7797e81e5fdb" />
+1. Shows nothing in the first page, but the name of the song
+2. When you try to searh for the songs, you will realise the every song listed are written by <b>Elton</b>
+3. Hence, I try using "https://www.hackthissite.org/missions/basic/11/e/l/t/o/n/"
+4. Adding .htaccess at the back
+<img width="637" alt="image" src="https://github.com/user-attachments/assets/d0068fcf-4120-476d-a52c-94744fbd7cf1" />
+5. You will see a hint "DaAnswer"
+6. The answer is shown. Try to pass it into the field given in the index.php file.
+
+
 
 
