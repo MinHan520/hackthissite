@@ -33,4 +33,20 @@ The phone number is : 5195554783
 qPYgbs0w5&?i{8a
 
 
+# Challenge 2
+I am given a photo as shown below : 
 
+
+
+The question need me to request for digital manipulation detection
+
+
+## Solution
+1. I use fotoforensics to forensics the image. 
+
+https://www.fotoforensics.com/
+
+2. Afterthat I can see words in the image which is the password 
+
+## Password
+ELA4LIFE!!
