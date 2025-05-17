@@ -47,7 +47,7 @@ https://www.fotoforensics.com/
 
 2. Afterthat I can see words in the image which is the password
 
- <img width="603" alt="image" src="https://github.com/user-attachments/assets/4a0be3d2-fc4a-43b5-999c-ef44aa8abe5b" />
+ <img width="603" alt="image" src="https://github.com/user-attachments/assets/2232f481-0b3b-494f-ae2f-92026fd124d7" />
 
 ## Password
 ELA4LIFE!!
