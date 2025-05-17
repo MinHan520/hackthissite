@@ -1,4 +1,5 @@
 **Challenge 1**
+
 I was given a .trz.gz file. 
 I double click to unzip the file and receive a image.dd file
 
@@ -19,6 +20,10 @@ A total of 19 files are extracted.
 1. I open the .wav file I hear. 
 "I say it is ... sent a new key over to you. Use your phone number to access the file"
 2. Later I open a .docx file and notice there is a phone number in the letter.
+
+<img width="603" alt="image" src="https://github.com/user-attachments/assets/2ebb7419-696e-4847-ac04-8c1352cff162" />
+
+The phone number is : 5195554783
 
 3. when I continue explore the rar files. One of the files require password to open. I use the phone number to open the file and I got the password. 
 
