@@ -36,17 +36,18 @@ qPYgbs0w5&?i{8a
 # Challenge 2
 I am given a photo as shown below : 
 
-
+<img width="708" alt="image" src="https://github.com/user-attachments/assets/90b7e1b6-fb4a-4245-a8d7-9c99401c9f37" />
 
 The question need me to request for digital manipulation detection
-
 
 ## Solution
 1. I use fotoforensics to forensics the image. 
 
 https://www.fotoforensics.com/
 
-2. Afterthat I can see words in the image which is the password 
+2. Afterthat I can see words in the image which is the password
+
+ <img width="603" alt="image" src="https://github.com/user-attachments/assets/4a0be3d2-fc4a-43b5-999c-ef44aa8abe5b" />
 
 ## Password
 ELA4LIFE!!
