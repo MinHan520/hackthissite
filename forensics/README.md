@@ -45,9 +45,11 @@ The question need me to request for digital manipulation detection
 
 https://www.fotoforensics.com/
 
+<img width="486" alt="image" src="https://github.com/user-attachments/assets/7c7972b3-d7b4-427a-9679-4c928b793ba0" />
+
 2. Afterthat I can see words in the image which is the password
 
- <img width="603" alt="image" src="https://github.com/user-attachments/assets/2232f481-0b3b-494f-ae2f-92026fd124d7" />
+
 
 ## Password
 ELA4LIFE!!
