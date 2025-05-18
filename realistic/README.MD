@@ -1,10 +1,10 @@
 # Challenge 1
-*Question*
+## Question
 From: HeavyMetalRyan
 Message: Hey man, I need a big favour from you. Remember that website I showed you once before? <a href="https://www.hackthissite.org/missions/realistic/1/">Uncle Arnold's Band Review Page?</a> Well, a long time ago I made a $500 bet with a friend that my band would be at the top of the list by the end of the year. Well, as you already know, two of my band members have died in a horrendous car accident... but this ass hole still insists that the bet is on!
 I know you're good with computers and stuff, so I was wondering, is there any way for you to hack this website and make my band on the top of the list? My band is Raging Inferno. Thanks a lot, man!
 
-*Solution*
+## Solutions
 1. You will notice this when inspect at <b>Raging Inferno</b>. Try to modify the value on 5 to 9999. 
 2. Try to click on 5 to increase the score
 <form action="v.php" method="get">
@@ -23,11 +23,11 @@ I know you're good with computers and stuff, so I was wondering, is there any wa
 
 
 # Challenge 2
-*Question*
+## Question
 From: DestroyFascism
 Message: I have been informed that you have quite admirable hacking skills. Well, this racist hate group is using their <a href="https://www.hackthissite.org/missions/realistic/2/">website</a> to organize a mass gathering of ignorant racist bastards. We cannot allow such bigoted aggression to happen. If you can gain access to their administrator page and post messages to their main page, we would be eternally grateful.
 
-*Solution*
+## Solutions
 1. Observe by inspecting the HTML code and open the update.php to redirect to the login page
 2. There is not much information available in the login HTML page. Hence, I suspect this will be using the select SQL with normal Boolean to login. 
 3. Hence, I tried with the most basic SQL injection by inserting "username ={1'='1' or 'a'='a} and password ={1'='1' or 'a'='a}". 
@@ -40,13 +40,13 @@ The later option will turn out this SQL line
 
 
 # Challenge 3
-*Question*
+## Question
 From: PeacePoetry
 
 Message: I run this website where people can read and submit peace-related poetry. I am doing this out of good will towards others, and I don't see why I would be making enemies out of this, but some real ass hole hacked my website posting a bunch of ignorant aggressive propaganda on the front page. And I made that website a while ago, and I no longer have access to it. Do you think you can hack in and change it back? Please? Oh, and bonus points if you message me the name of the bastard who did this!
 My website can be found <a href="https://www.hackthissite.org/missions/realistic/3/">here.</a>
 
-*Solution*
+## Solutions
 1. Realize this comment in the page source : 
 <!--Note to the webmasterThis website has been hacked, but not totally destroyed. The old website is still up. I simply copied the old index.html file to oldindex.html and remade this one. Sorry about the inconvenience.-->
 
@@ -55,7 +55,7 @@ My website can be found <a href="https://www.hackthissite.org/missions/realistic
 4. Submit the poetry with the name : "../index.html" and poem : {paste the whole html code}.
 
 # Challenge 4
-*Question*
+## Question
 Message: Hello, I was referred to you by a friend who says you know how to hack into computers and web sites - well I was wondering if you could help me out here. There's this local store who is killing hundreds of animals a day exclusively for the purpose of selling jackets and purses etc out of their skin! I have been to their website and they have an email list for their customers. I was wondering if you could somehow hack in and send me every email address on that list? I want to send them a message letting them know of the murder they are wearing. Just reply to this message with a list of the email addresses. Please? Their website is at <a href="http://www.hackthissite.org/missions/realistic/4/">link</a>. Thanks so much!!
 
 ## Solutions
@@ -65,6 +65,9 @@ Example : "https://www.hackthissite.org/missions/realistic/4/products.php?catego
 
 
 # Challenge 5
+## Question
+Message: Yo! This is Spiffomatic64 from Hackthissite.org! I'm a bit of a hacker myself as you can see, but I recently came upon a problem I couldn't resolve.....
+Lately I've been getting calls day and night from the telemarketing place. I've gone to their <a href="https://www.hackthissite.org/missions/realistic/5/">website</a> and hacked it once deleting all of their phone numbers so they wouldn't call me anymore. That was a temporary fix but they put their database back up, this time with an encrypted password. When I hacked them I noticed everything they used was 10 years out of date and the new password seems to be a 'message digest'. I have done some research and I think it could be something like a so-called hash value. I think you could somehow reverse engineer it or brute force it. I also think it would be a good idea to look around the server for anything that may help you.
 
 ## Solutions
 1. I use a fantastic tools which is HashTag by SmeegeSec <a href ="https://github.com/SmeegeSec/HashTag/tree/master">https://github.com/SmeegeSec/HashTag/tree/master</a>
