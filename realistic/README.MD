@@ -73,8 +73,6 @@ This is a tools that allows me to know which are the high possibilities that the
 
 2. I used python2 ../HashTag/HashTag.py -sh {<i>your hash value</i>}
 
-
-
 Later on I found that MD4 stand a really high possibility.
 
 3. Attempt to crack the password using the john the ripper tools 
