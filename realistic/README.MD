@@ -1,4 +1,4 @@
-**Challenge 1**
+# Challenge 1
 *Question*
 From: HeavyMetalRyan
 Message: Hey man, I need a big favour from you. Remember that website I showed you once before? <a href="https://www.hackthissite.org/missions/realistic/1/">Uncle Arnold's Band Review Page?</a> Well, a long time ago I made a $500 bet with a friend that my band would be at the top of the list by the end of the year. Well, as you already know, two of my band members have died in a horrendous car accident... but this ass hole still insists that the bet is on!
@@ -22,7 +22,7 @@ I know you're good with computers and stuff, so I was wondering, is there any wa
 
 
 
-**Challenge 2**
+# Challenge 2
 *Question*
 From: DestroyFascism
 Message: I have been informed that you have quite admirable hacking skills. Well, this racist hate group is using their <a href="https://www.hackthissite.org/missions/realistic/2/">website</a> to organize a mass gathering of ignorant racist bastards. We cannot allow such bigoted aggression to happen. If you can gain access to their administrator page and post messages to their main page, we would be eternally grateful.
@@ -39,7 +39,7 @@ The later option will turn out this SQL line
 {SELECT * FROM users WHERE username = 'test' OR '1'='1'';}
 
 
-**Challenge 3**
+# Challenge 3
 *Question*
 From: PeacePoetry
 
@@ -54,11 +54,43 @@ My website can be found <a href="https://www.hackthissite.org/missions/realistic
 3. Inspect the page and copy the whole html source code
 4. Submit the poetry with the name : "../index.html" and poem : {paste the whole html code}.
 
-**Challenge 4**
+# Challenge 4
 *Question*
 Message: Hello, I was referred to you by a friend who says you know how to hack into computers and web sites - well I was wondering if you could help me out here. There's this local store who is killing hundreds of animals a day exclusively for the purpose of selling jackets and purses etc out of their skin! I have been to their website and they have an email list for their customers. I was wondering if you could somehow hack in and send me every email address on that list? I want to send them a message letting them know of the murder they are wearing. Just reply to this message with a list of the email addresses. Please? Their website is at <a href="http://www.hackthissite.org/missions/realistic/4/">link</a>. Thanks so much!!
 
-*Solutions*
+## Solutions
 1. By browsing through the inspection, you are able to see there is PHP file in this doc which is "https://www.hackthissite.org/missions/realistic/4/products.php?categoty=1"
 2. I tested different categories and realize there is only 2 categories for this product. 
 Example : "https://www.hackthissite.org/missions/realistic/4/products.php?category=2"
+
+
+# Challenge 5
+
+## Solutions
+1. I use a fantastic tools which is HashTag by SmeegeSec <a href ="https://github.com/SmeegeSec/HashTag/tree/master">https://github.com/SmeegeSec/HashTag/tree/master</a>
+
+This is a tools that allows me to know which are the high possibilities that the hash is used. I suggest to gitclone and store it in your folder.
+
+2. I used python2 ../HashTag/HashTag.py -sh {<i>your hash value</i>}
+
+Later on I found that MD4 stand a really high possibility.
+
+3. Attempt to crack the password using the john the ripper tools 
+
+*john --wordlist=/usr/share/john/password.lst --rules pass.txt*
+
+4. I will try to crack directly with the higher possibility hash
+
+Can use *john --list=formats pass.txt | grep MD4* to find what is the available hash
+
+Or can use this to show available hash 
+
+*john -list=formats | grep md4*
+
+Crack the password
+
+*john --formats=Raw-MD4 --fork=4 pass.txt*
+
+5. Show the password
+
+*john --format=Raw-MD4 --show pass.txt*
