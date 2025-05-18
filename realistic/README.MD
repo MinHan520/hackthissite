@@ -101,3 +101,53 @@ Crack the password
 ## Password
 
 7973c
+
+# Challenge 6
+## Question 
+From: ToxiCo_Watch
+
+Message: Hello esteemed hacker, I hope you have some decent cryptography skills. I have some text I need decrypted.
+I work for this company called ToxiCo Industrial Chemicals, which has recently come under fire because of the toxic chemicals we are dumping into the river nearby. Ecological inspectors have reported no problems, but it is widely speculated that they were paid off by ToxiCo management because the water pollution near the ToxiCo factory has always been a serious and widely publicized issue.
+I have done some packet sniffing on my network and I have recovered this email that was sent from the CEO of the company to Chief Ecological Inspector Samuel Smith. However, it is encrypted and I cannot seem to decode it using any of my basic decryption tools. I have narrowed it down to the algorithm used to encrypt it, but it is beyond my scope. I was hoping you can take a look at it.
+Please check it out,
+<a href="https://www.hackthissite.org/missions/realistic/6/index.html">more details are on the page</a>. If you can unscramble it and reply to this message with the original text, it would be much appreciated. Thank you.
+
+
+# Challenge 7
+## Question 
+From: FreedomOfChoice
+
+Message: Friend of freedom and liberty, I invite you to take a look at the hate speech being spewed over the web at http://www.hackthissite.org/missions/realistic/7/. It's so funny that conservatives keep saying they want to protect the values of America - freedom, tolerance, and democracy - but when it comes to personal choices like private marijuana use or same-sex marriages, they damn them to burn in eternal hell and send them to jail.
+This is a personal freedom issue. No one else is hurt if two consenting adults decide to marry. But people who claim to have the moral high ground decide to ruin it for everyone else and discriminate against same-sex couples. To think that they are talking about making a constitutional amendment to STOP OUR FREEDOM TO MARRY is ludicrous. This injustice must be stopped.
+There is an admin section on that website somewhere, perhaps hidden among their directory structure. It would be a great fight against moral tyranny and a victory for freedom if you could somehow hack into their website. Thank you.
+
+## Solution
+1. When you observe the website you will able to see there is /images/{name}.jpg directory. 
+
+
+
+I make use of this opportunity to see are there anything in the image dir.
+
+2. I realize there are a lot of images and also *../admin/* dir in this dir means I will just have to find the password.
+
+3. I try to search for files in the admin dir by doing this to the url : 
+
+*https://www.hackthissite.org/missions/realistic/7/showimages.php?file=images/admin/.htpasswd*
+
+4. In source code, I realize this : administrator:$1$AAODv...$gXPqGkIO3Cu6dnclE/sok1
+
+5. I make use of John The Ripper tool too solve this : 
+
+*john --fork=4 pass.txt*
+
+*john --show pass.txt* 
+
+Note : A side note when I try to check and identify the hash used, there written no hash is used for this challenge.
+
+## Password 
+Username : Administrator
+
+Password : Shadow
+
+
+
