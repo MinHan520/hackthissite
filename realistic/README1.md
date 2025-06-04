@@ -72,3 +72,8 @@ Ways to create agent in Google Chrome  :
 Inspect > Network > More Tools > Network Conditions > User Agent
 
 <img width="1273" alt="image" src="https://github.com/user-attachments/assets/9256391d-bcf9-4829-8b43-4355702b7b6a" />
+
+After installing the extension, here try to add your user according to group. Then tap into your specific user.
+
+<img width="1156" alt="image" src="https://github.com/user-attachments/assets/29d8b54f-86fc-4632-a8eb-1df816c5a7b1" />
+
