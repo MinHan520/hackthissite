@@ -63,3 +63,12 @@ staff.php
 1.  Log into the student account by using the given username and password
 2. When we try to look listteacher.php, we realise that "Samantha Miller" has id = 1 --> she is the admin
 3. Try to log into Samantha Miller : using the email address "smiller@holycross.edu"
+4. 
+
+
+
+Ways to create agent in Google Chrome  :
+
+Inspect > Network > More Tools > Network Conditions > User Agent
+
+<img width="1273" alt="image" src="https://github.com/user-attachments/assets/9256391d-bcf9-4829-8b43-4355702b7b6a" />
